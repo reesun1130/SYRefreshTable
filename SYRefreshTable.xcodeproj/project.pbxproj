@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF05F6661A4D00A300897975 /* SYTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF05F65F1A4D00A300897975 /* SYTableFooterView.m */; };
+		CF05F6671A4D00A300897975 /* SYTableFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF05F6601A4D00A300897975 /* SYTableFooterView.xib */; };
+		CF05F6681A4D00A300897975 /* SYTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF05F6621A4D00A300897975 /* SYTableHeaderView.m */; };
+		CF05F6691A4D00A300897975 /* SYTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF05F6631A4D00A300897975 /* SYTableHeaderView.xib */; };
+		CF05F66A1A4D00A300897975 /* SYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF05F6651A4D00A300897975 /* SYTableViewController.m */; };
+		CFF8ECCF1A4C18CB00DEC7E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF8ECCE1A4C18CB00DEC7E8 /* main.m */; };
+		CFF8ECD21A4C18CB00DEC7E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF8ECD11A4C18CB00DEC7E8 /* AppDelegate.m */; };
+		CFF8ECD51A4C18CB00DEC7E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF8ECD41A4C18CB00DEC7E8 /* ViewController.m */; };
+		CFF8ECD81A4C18CB00DEC7E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF8ECD61A4C18CB00DEC7E8 /* Main.storyboard */; };
+		CFF8ECDA1A4C18CB00DEC7E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF8ECD91A4C18CB00DEC7E8 /* Images.xcassets */; };
+		CFF8ECDD1A4C18CB00DEC7E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFF8ECDB1A4C18CB00DEC7E8 /* LaunchScreen.xib */; };
+		CFF8ECE91A4C18CB00DEC7E8 /* SYRefreshTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF8ECE81A4C18CB00DEC7E8 /* SYRefreshTableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFF8ECE31A4C18CB00DEC7E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF8ECC11A4C18CB00DEC7E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF8ECC81A4C18CB00DEC7E8;
+			remoteInfo = SYRefreshTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF05F65E1A4D00A300897975 /* SYTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTableFooterView.h; sourceTree = "<group>"; };
+		CF05F65F1A4D00A300897975 /* SYTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTableFooterView.m; sourceTree = "<group>"; };
+		CF05F6601A4D00A300897975 /* SYTableFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYTableFooterView.xib; sourceTree = "<group>"; };
+		CF05F6611A4D00A300897975 /* SYTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTableHeaderView.h; sourceTree = "<group>"; };
+		CF05F6621A4D00A300897975 /* SYTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTableHeaderView.m; sourceTree = "<group>"; };
+		CF05F6631A4D00A300897975 /* SYTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYTableHeaderView.xib; sourceTree = "<group>"; };
+		CF05F6641A4D00A300897975 /* SYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTableViewController.h; sourceTree = "<group>"; };
+		CF05F6651A4D00A300897975 /* SYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTableViewController.m; sourceTree = "<group>"; };
+		CFF8ECC91A4C18CB00DEC7E8 /* SYRefreshTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYRefreshTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF8ECCD1A4C18CB00DEC7E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF8ECCE1A4C18CB00DEC7E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFF8ECD01A4C18CB00DEC7E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFF8ECD11A4C18CB00DEC7E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFF8ECD31A4C18CB00DEC7E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFF8ECD41A4C18CB00DEC7E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFF8ECD71A4C18CB00DEC7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFF8ECD91A4C18CB00DEC7E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFF8ECDC1A4C18CB00DEC7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CFF8ECE21A4C18CB00DEC7E8 /* SYRefreshTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYRefreshTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF8ECE71A4C18CB00DEC7E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF8ECE81A4C18CB00DEC7E8 /* SYRefreshTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYRefreshTableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFF8ECC61A4C18CB00DEC7E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF8ECDF1A4C18CB00DEC7E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF05F65D1A4D00A300897975 /* SYRefreshTable */ = {
+			isa = PBXGroup;
+			children = (
+				CF05F65E1A4D00A300897975 /* SYTableFooterView.h */,
+				CF05F65F1A4D00A300897975 /* SYTableFooterView.m */,
+				CF05F6601A4D00A300897975 /* SYTableFooterView.xib */,
+				CF05F6611A4D00A300897975 /* SYTableHeaderView.h */,
+				CF05F6621A4D00A300897975 /* SYTableHeaderView.m */,
+				CF05F6631A4D00A300897975 /* SYTableHeaderView.xib */,
+				CF05F6641A4D00A300897975 /* SYTableViewController.h */,
+				CF05F6651A4D00A300897975 /* SYTableViewController.m */,
+			);
+			path = SYRefreshTable;
+			sourceTree = "<group>";
+		};
+		CFF8ECC01A4C18CB00DEC7E8 = {
+			isa = PBXGroup;
+			children = (
+				CFF8ECCB1A4C18CB00DEC7E8 /* SYRefreshTable */,
+				CFF8ECE51A4C18CB00DEC7E8 /* SYRefreshTableTests */,
+				CFF8ECCA1A4C18CB00DEC7E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF8ECCA1A4C18CB00DEC7E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8ECC91A4C18CB00DEC7E8 /* SYRefreshTable.app */,
+				CFF8ECE21A4C18CB00DEC7E8 /* SYRefreshTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF8ECCB1A4C18CB00DEC7E8 /* SYRefreshTable */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8ECD01A4C18CB00DEC7E8 /* AppDelegate.h */,
+				CFF8ECD11A4C18CB00DEC7E8 /* AppDelegate.m */,
+				CFF8ECD31A4C18CB00DEC7E8 /* ViewController.h */,
+				CFF8ECD41A4C18CB00DEC7E8 /* ViewController.m */,
+				CFF8ECD61A4C18CB00DEC7E8 /* Main.storyboard */,
+				CFF8ECD91A4C18CB00DEC7E8 /* Images.xcassets */,
+				CFF8ECDB1A4C18CB00DEC7E8 /* LaunchScreen.xib */,
+				CF05F65D1A4D00A300897975 /* SYRefreshTable */,
+				CFF8ECCC1A4C18CB00DEC7E8 /* Supporting Files */,
+			);
+			path = SYRefreshTable;
+			sourceTree = "<group>";
+		};
+		CFF8ECCC1A4C18CB00DEC7E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8ECCD1A4C18CB00DEC7E8 /* Info.plist */,
+				CFF8ECCE1A4C18CB00DEC7E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFF8ECE51A4C18CB00DEC7E8 /* SYRefreshTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8ECE81A4C18CB00DEC7E8 /* SYRefreshTableTests.m */,
+				CFF8ECE61A4C18CB00DEC7E8 /* Supporting Files */,
+			);
+			path = SYRefreshTableTests;
+			sourceTree = "<group>";
+		};
+		CFF8ECE61A4C18CB00DEC7E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8ECE71A4C18CB00DEC7E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFF8ECC81A4C18CB00DEC7E8 /* SYRefreshTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF8ECEC1A4C18CB00DEC7E8 /* Build configuration list for PBXNativeTarget "SYRefreshTable" */;
+			buildPhases = (
+				CFF8ECC51A4C18CB00DEC7E8 /* Sources */,
+				CFF8ECC61A4C18CB00DEC7E8 /* Frameworks */,
+				CFF8ECC71A4C18CB00DEC7E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYRefreshTable;
+			productName = SYRefreshTable;
+			productReference = CFF8ECC91A4C18CB00DEC7E8 /* SYRefreshTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFF8ECE11A4C18CB00DEC7E8 /* SYRefreshTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF8ECEF1A4C18CB00DEC7E8 /* Build configuration list for PBXNativeTarget "SYRefreshTableTests" */;
+			buildPhases = (
+				CFF8ECDE1A4C18CB00DEC7E8 /* Sources */,
+				CFF8ECDF1A4C18CB00DEC7E8 /* Frameworks */,
+				CFF8ECE01A4C18CB00DEC7E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF8ECE41A4C18CB00DEC7E8 /* PBXTargetDependency */,
+			);
+			name = SYRefreshTableTests;
+			productName = SYRefreshTableTests;
+			productReference = CFF8ECE21A4C18CB00DEC7E8 /* SYRefreshTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF8ECC11A4C18CB00DEC7E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = SY;
+				TargetAttributes = {
+					CFF8ECC81A4C18CB00DEC7E8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CFF8ECE11A4C18CB00DEC7E8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CFF8ECC81A4C18CB00DEC7E8;
+					};
+				};
+			};
+			buildConfigurationList = CFF8ECC41A4C18CB00DEC7E8 /* Build configuration list for PBXProject "SYRefreshTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF8ECC01A4C18CB00DEC7E8;
+			productRefGroup = CFF8ECCA1A4C18CB00DEC7E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF8ECC81A4C18CB00DEC7E8 /* SYRefreshTable */,
+				CFF8ECE11A4C18CB00DEC7E8 /* SYRefreshTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF8ECC71A4C18CB00DEC7E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF05F6671A4D00A300897975 /* SYTableFooterView.xib in Resources */,
+				CFF8ECD81A4C18CB00DEC7E8 /* Main.storyboard in Resources */,
+				CFF8ECDD1A4C18CB00DEC7E8 /* LaunchScreen.xib in Resources */,
+				CF05F6691A4D00A300897975 /* SYTableHeaderView.xib in Resources */,
+				CFF8ECDA1A4C18CB00DEC7E8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF8ECE01A4C18CB00DEC7E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFF8ECC51A4C18CB00DEC7E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF05F6661A4D00A300897975 /* SYTableFooterView.m in Sources */,
+				CFF8ECD51A4C18CB00DEC7E8 /* ViewController.m in Sources */,
+				CFF8ECD21A4C18CB00DEC7E8 /* AppDelegate.m in Sources */,
+				CF05F66A1A4D00A300897975 /* SYTableViewController.m in Sources */,
+				CFF8ECCF1A4C18CB00DEC7E8 /* main.m in Sources */,
+				CF05F6681A4D00A300897975 /* SYTableHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF8ECDE1A4C18CB00DEC7E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF8ECE91A4C18CB00DEC7E8 /* SYRefreshTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFF8ECE41A4C18CB00DEC7E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF8ECC81A4C18CB00DEC7E8 /* SYRefreshTable */;
+			targetProxy = CFF8ECE31A4C18CB00DEC7E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFF8ECD61A4C18CB00DEC7E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF8ECD71A4C18CB00DEC7E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFF8ECDB1A4C18CB00DEC7E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF8ECDC1A4C18CB00DEC7E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFF8ECEA1A4C18CB00DEC7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFF8ECEB1A4C18CB00DEC7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFF8ECED1A4C18CB00DEC7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYRefreshTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFF8ECEE1A4C18CB00DEC7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYRefreshTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFF8ECF01A4C18CB00DEC7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SYRefreshTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYRefreshTable.app/SYRefreshTable";
+			};
+			name = Debug;
+		};
+		CFF8ECF11A4C18CB00DEC7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SYRefreshTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYRefreshTable.app/SYRefreshTable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFF8ECC41A4C18CB00DEC7E8 /* Build configuration list for PBXProject "SYRefreshTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF8ECEA1A4C18CB00DEC7E8 /* Debug */,
+				CFF8ECEB1A4C18CB00DEC7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF8ECEC1A4C18CB00DEC7E8 /* Build configuration list for PBXNativeTarget "SYRefreshTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF8ECED1A4C18CB00DEC7E8 /* Debug */,
+				CFF8ECEE1A4C18CB00DEC7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF8ECEF1A4C18CB00DEC7E8 /* Build configuration list for PBXNativeTarget "SYRefreshTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF8ECF01A4C18CB00DEC7E8 /* Debug */,
+				CFF8ECF11A4C18CB00DEC7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFF8ECC11A4C18CB00DEC7E8 /* Project object */;
+}
