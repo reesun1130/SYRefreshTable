@@ -16,18 +16,22 @@
     *  {
     *     if (![super refresh])
     *        return NO;
-    *     self.pageCount = 1;
-    *     [lockLoadData lock];
-    *     [self performSelector:@selector(loadItemData) withObject:nil afterDelay:0.01];
-    *     [lockLoadData unlock];
-    *     return YES;
-    *  }
+          
+          self.pageCount = 1;
+          
+          [lockLoadData lock];
+          [self performSelector:@selector(loadItemData) withObject:nil afterDelay:0.01];
+          [lockLoadData unlock];
+          
+          return YES;
+       }
 
 #Load More
     *  - (BOOL)loadMore
     *  {
     *      if (![super loadMore])
     *         return NO;
+           
            self.pageCount ++;
   
            [lockLoadData lock];
