@@ -12,41 +12,36 @@
 ////////// 只需实现这三个方法 即可实现下拉刷新，上拉加载更多
 #Pull to Refresh
 
-- (BOOL)refresh
-{
-   if (![super refresh])
-     return NO;
-
-   self.pageCount = 1;
-
-   [lockLoadData lock];
-   [self performSelector:@selector(loadItemData) withObject:nil afterDelay:0.01];
-   [lockLoadData unlock];
-
-   return YES;
-}
+  /**  - (BOOL)refresh
+    *  {
+    *     if (![super refresh])
+    *        return NO;
+    *     self.pageCount = 1;
+    *     [lockLoadData lock];
+    *     [self performSelector:@selector(loadItemData) withObject:nil afterDelay:0.01];
+    *     [lockLoadData unlock];
+    *     return YES;
+    *  }
 
 #Load More
-
-- (BOOL)loadMore
-{
-   if (![super loadMore])
-     return NO;
-
-   self.pageCount ++;
+    *  - (BOOL)loadMore
+    *  {
+    *      if (![super loadMore])
+    *         return NO;
+           self.pageCount ++;
   
-   [lockLoadData lock];
-   [self performSelector:@selector(loadItemData) withObject:nil afterDelay:0.01];
-   [lockLoadData unlock];
+           [lockLoadData lock];
+           [self performSelector:@selector(loadItemData) withObject:nil afterDelay:0.01];
+           [lockLoadData unlock];
   
-   return YES;
-}
+           return YES;
+       }
 
 #UIScrollViewDelegate Method
-
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView
-{
-   [super scrollViewDidScroll:scrollView];
-}
+    *  - (void)scrollViewDidScroll:(UIScrollView *)scrollView
+       {
+          [super scrollViewDidScroll:scrollView];
+       }
 ////////// 只需实现这三个方法 即可实现下拉刷新，上拉加载更多
+*/
 
