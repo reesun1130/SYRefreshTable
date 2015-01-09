@@ -10,8 +10,7 @@
     */
     
 ////////// 只需实现这三个方法 即可实现下拉刷新，上拉加载更多
-#pragma mark -
-#pragma mark Pull to Refresh
+#Pull to Refresh
 
 - (BOOL)refresh
 {
@@ -27,8 +26,7 @@
    return YES;
 }
 
-#pragma mark -
-#pragma mark Load More
+#Load More
 
 - (BOOL)loadMore
 {
@@ -44,8 +42,7 @@
    return YES;
 }
 
-#pragma mark -
-#pragma mark UIScrollViewDelegate Methods
+#UIScrollViewDelegate Methods
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
