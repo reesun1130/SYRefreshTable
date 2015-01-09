@@ -12,7 +12,7 @@
 ////////// 只需实现这三个方法 即可实现下拉刷新，上拉加载更多
 #Pull to Refresh
 
-  /**  - (BOOL)refresh
+    *  - (BOOL)refresh
     *  {
     *     if (![super refresh])
     *        return NO;
