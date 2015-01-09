@@ -13,9 +13,9 @@
 #Pull to Refresh
 
     *  - (BOOL)refresh
-    *  {
-    *     if (![super refresh])
-    *        return NO;
+       {
+          if (![super refresh])
+             return NO;
           
           self.pageCount = 1;
           
@@ -27,10 +27,11 @@
        }
 
 #Load More
+
     *  - (BOOL)loadMore
-    *  {
-    *      if (![super loadMore])
-    *         return NO;
+       {
+           if (![super loadMore])
+              return NO;
            
            self.pageCount ++;
   
@@ -42,10 +43,11 @@
        }
 
 #UIScrollViewDelegate Method
+    
     *  - (void)scrollViewDidScroll:(UIScrollView *)scrollView
        {
           [super scrollViewDidScroll:scrollView];
        }
+       
 ////////// 只需实现这三个方法 即可实现下拉刷新，上拉加载更多
-*/
 
