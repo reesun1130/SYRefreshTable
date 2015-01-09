@@ -42,7 +42,7 @@
    return YES;
 }
 
-#UIScrollViewDelegate Methods
+#UIScrollViewDelegate Method
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
