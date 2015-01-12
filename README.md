@@ -51,3 +51,6 @@
        
 ////////// 只需实现这三个方法 即可实现下拉刷新，上拉加载更多
 
+# 效果如下：
+ ![image](https://github.com/reesun1130/SYRefreshTable/raw/master/SYRefreshTable/syrefresh.png)
+
