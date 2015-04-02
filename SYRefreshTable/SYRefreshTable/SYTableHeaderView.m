@@ -15,7 +15,7 @@
 
     UIImage *arrowImage = [UIImage imageNamed:@"arrowDown"];
     
-    CGRect frame = CGRectMake(87, (self.frame.size.height - 10) / 2.0, arrowImage.size.width * 10 / arrowImage.size.height, 10);
+    CGRect frame = CGRectMake(98, (self.frame.size.height - 10) / 2.0, arrowImage.size.width * 10 / arrowImage.size.height, 10);
 
     self.arrowImageView = [[UIImageView alloc] initWithFrame:frame];
     self.arrowImageView.image = arrowImage;
