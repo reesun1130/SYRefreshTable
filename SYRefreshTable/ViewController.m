@@ -176,7 +176,7 @@ static NSString *cellID = @"cellID";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    SYLog(@"selected row number == %ld",(long)indexPath.row);
+    SYLog(@"selected row  == %ld",(long)indexPath.row);
 }
 
 @end
